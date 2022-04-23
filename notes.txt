@@ -29,3 +29,7 @@ $ git checkout scriptJS
 
 # Renomear a branch existente
 $ git branch -m script
+
+$ git push -u origin script
+
+$ git fetch --all
