@@ -8,3 +8,5 @@ function adocaoAnimal(){
     }
 }
 adocaoAnimal()
+
+console.log('mais uma msg de novo')
