@@ -1,0 +1,35 @@
+# Vincular branch local ao repositorio no Github
+$ git remote add origin https://github.com/lucasabdalah/git-talk.git
+
+$ git add .
+
+$ git add FILE_NAME
+
+$ git commit -m "chore: firstChange"
+
+$ git push -u origin master
+
+# Adiciona todos as mudanças para staged preprando os arquivos pro commit
+$ git add .
+
+# Commit as mudanças pro que sera empurrado na origem
+$ git commit -m "chore: secondChange"
+
+
+
+# Empurrar mudanças pra origem no Github
+$ git push -u origin master
+
+
+# Criar branch
+$ git branch scriptJS
+
+# Sair da branch atual em direção ao scriptJS
+$ git checkout scriptJS
+
+# Renomear a branch existente
+$ git branch -m script
+
+$ git push -u origin script
+
+$ git fetch --all
