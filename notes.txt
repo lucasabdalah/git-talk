@@ -33,3 +33,5 @@ $ git branch -m script
 $ git push -u origin script
 
 $ git fetch --all
+
+git reset --soft HEAD~1
